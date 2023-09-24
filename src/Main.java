@@ -4,6 +4,7 @@ import java.util.regex.*;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter ip-address:");
         System.out.println(validate(sc.nextLine()));
     }
     public static String validate(String ip)
